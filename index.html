@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
   </head>
   <body>
@@ -21,7 +22,7 @@
         <div class="header-box">
           <div class="row">
             <div class="col-md-2 col-sm-2  px-0">
-            <div class="header-left" id="head-left">
+            <div class="header-left" id="open">
               <span><i class="fa-solid fa-chevron-left"></i></span>
               <h6>Script</h6>
             </div>
@@ -144,7 +145,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-6 last">
             <div class="header-right">
               <div class="button-one">
               <a href="#">SHARE</a>
@@ -173,12 +174,12 @@
 
     <!-- Sidebar Start -->
 
-    <section class="side" id="side">
+    <section class="side" id="pm_menu">
       <div class="container-fluid px-0">
         <div class="row">
           <div class="col-md-12">
             <div class="side-content">
-              <div class="side-head">
+              <div class="side-head" >
               <span><i class="fa-solid fa-chevron-left"></i></span>
               <h2>Celtex</h2>
             </div>
@@ -217,6 +218,7 @@
           </div>
         </div>
       </div>
+     
     </section>
     <!-- Sidebar End-->
 
@@ -361,8 +363,15 @@
   </div>
 </footer>
 <!-- Footer Section End-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     <script src="./core.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+     <script src="./js/core.js"></script>
+     <script src="./js/pushmenu.js"></script>
+     <script type="text/javascript">
+      (function($){
+          $('#pm_menu').pushmenu({ button : "#open" });
+      })(jQuery);
+    </script>
   </body>
 </html>
