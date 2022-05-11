@@ -1,0 +1,122 @@
+
+/* Responsiv css */
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+  .header-mid ul li a {
+    padding: 1rem 1.5rem;
+  }
+
+  .header-right {
+    padding-right: 2rem;
+  }
+  .side-mid-right a {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .header-mid ul li a {
+    padding: 1rem 1.5rem;
+  }
+  .header-right {
+    padding-right: 1rem;
+  }
+  .button-tow a {
+    padding: 2.5rem 2.3rem;
+  }
+  .side-mid-right a {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 35%;
+  }
+  .writing-menu {
+    display: none;
+  }
+  .writing {
+    height: 100vh;
+  }
+  .writing-section {
+    width: 100%;
+    height: 100vh;
+  }
+  .footer-right {
+    text-align: center;
+  }
+  .footer-left {
+    text-align: center;
+  }
+
+  .tools-left {
+    justify-content: flex-start;
+  }
+
+  .col-md-2.col-sm-2 {
+    width: 25%;
+  }
+
+  .col-md-4.col-sm-4 {
+    width: 33%;
+  }
+  .col-md-6.col-sm-6.tool {
+    width: 50%;
+  }
+  .col-md-6.col-sm-6.last {
+    width: 40%;
+  }
+  .header-img {
+    /* position: relative;
+  top: -28px; */
+  }
+  .action {
+    display: block;
+  }
+  .side {
+    width: 34%;
+  }
+  .button-one {
+    display: none;
+  }
+  .side-mid-right a {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .button-tow a {
+    padding: 2.5rem 1.3rem;
+  }
+
+  .button-tow a {
+    font-size: 1.1rem;
+  }
+  .header-left h6 {
+    margin-left: 0rem;
+  }
+
+  .col-md-2.col-sm-2 {
+    width: 18%;
+}
+.header-mid ul li a {
+  padding: 1rem 0.8rem;
+}
+.col-md-6.col-sm-6.last {
+  width: 49%;
+}       
+.tools-right {
+  margin-right: 0rem;
+}
+.tools-leftbox-one ul li a {
+  padding: 0.4rem 0.5rem;
+
+}
+
