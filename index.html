@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Script</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+      <!-- Site Header Start -->
+    <header>
+      <div class="container-fluid">
+        <div class="header-box">
+          <div class="row">
+            <div class="col-md-2 col-sm-2  px-0">
+            <div class="header-left" id="head-left">
+              <span><i class="fa-solid fa-chevron-left"></i></span>
+              <h6>Script</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="header-mid">
+              <ul>
+                <li><a id="file" href="#">File</a>
+                  <ul id="file-dropdown">
+                  <li><a href="#">Import Script <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">from File</a></li>
+                      <li><a href="#">from Projects</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Export Script <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">To Text</a></li>
+                      <li><a href="#">To Fountain</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Create Link</a></li>
+                  <li><a href="#">Create Sides</a></li>
+                  <li><a href="#">Go Offline</a></li>
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Print/Download <span>PDF Ctrl+P</span></a></li>
+                  <li><a href="#">Save(no change) <span>Ctrl+S</span></a></li>
+                  </ul>
+
+                </li>
+                <li><a id="drop2" href="#">Edit</a>
+                  <ul id="editDropdown">
+                    <li><a href="#">Rename Script </a> </li>
+                    <li><a href="#">Title Page </a> </li>
+                    <li><a href="#">Undo <span>Ctrl+Z</span></a></li>
+                    <li><a href="#">Redo <span>Ctrl+Shift+Z</span></a></li>
+                    <li><a href="#">Formate <i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Bold <span>Ctrl+B</span></a></li>
+                        <li><a href="#">Italics <span>Ctrl+I</span></a></li>
+                        <li><a href="#">Underline <span>Ctrl+U</span></a></li>
+                        <li><a href="#">Uppercase <span>Ctrl+Alt+P</span></a></li>
+                        <li><a href="#">Lowercase <span>Ctrl+Shift+L</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Cut <span>Ctrl+X</span></a></li>
+                    <li><a href="#">Copy <span>Ctrl+C</span></a></li>
+                    <li><a href="#">Paste <span>Ctrl+P</span></a></li>
+                    <li><a href="#">Find & Replace <span>Ctrl+F</span></a></li>
+                    <li><a href="#">Check Spelling <span>Ctrl+Alt+S</span></a></li>
+                    <li><a href="#">Revision Mode</a></li>
+                    <li><a href="#">Headers & Footers</a></li>
+                    <li><a href="#">Script Settings</a></li>
+                    </ul>
+                </li>
+                <li><a id="drop3" href="#">View</a>
+                  <ul id="viewDropdown">
+                    <li><a href="#">Tools <i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Navigation</a></li>
+                        <li><a href="#">Title Page</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">Index Cards</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Breakdown</a></li>
+                        <li><a href="#">Shot List</a></li>
+                        <li><a href="#">Read Through</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">Script Goals</a></li>
+                    <li><a href="#">Script Insights</a></li>
+                    <li><a href="#">Scene Numbers <i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">None</a></li>
+                        <li><a href="#">Left</a></li>
+                        <li><a href="#">Right</a></li>
+                        <li><a href="#">Both</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Dialogue Numbers<i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">None</a></li>
+                        <li><a href="#">Left</a></li>
+                        <li><a href="#">Right</a></li>
+                        <li><a href="#">Both</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Zoom <i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">50%</a></li>
+                        <li><a href="#">75%</a></li>
+                        <li><a href="#">100%</a></li>
+                        <li><a href="#">125%</a></li>
+                        <li><a href="#">150%</a></li>
+                        <li><a href="#">200%</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a href="#">Fullscreen</a></li>
+                    <li><a href="#">Color <i class="fa-solid fa-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="#">Text</a></li>
+                        <li><a href="#">Background</a></li>
+
+                      </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li><a id="drop4" href="#">Help</a>
+                  <ul id="helpdown">
+                    <li><a href="#">Screenplay Tour</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="header-right">
+              <div class="button-one">
+              <a href="#">SHARE</a>
+              </div>
+             
+                <div class="header-icon">
+                <a href="#"><i class="fa-regular fa-comment"></i></a>
+                <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+
+                <div class="button-tow">
+                   <a href="#">SUBSRIBE</a> 
+                </div>
+
+                  <div class="header-img">
+                    <img src="./img/face-1.jpg" alt="">
+                </div>
+                </ul>  
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Site Header End -->
+
+    <!-- Sidebar Start -->
+
+    <section class="side" id="side">
+      <div class="container-fluid px-0">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="side-content">
+              <div class="side-head">
+              <span><i class="fa-solid fa-chevron-left"></i></span>
+              <h2>Celtex</h2>
+            </div>
+
+            <div class="side-mid">
+              <div class="side-mid-left">
+                <img src="./img/face-1.jpg" alt="">
+              </div>
+              <div class="side-mid-right">
+                <h4>Demo</h4>
+                <h6>Film & TV</h6>
+                <strong>05 | 10 | 22 01:51 PM</strong>
+                <a href="#">SHARE</a>
+              </div>
+            </div>
+
+            <div class="side-bottom">
+              <ul><li><a href="#">Team</a></li></ul>
+              <ul><li><a href="#">Script</a></li></ul>
+              <ul><li><a href="#">Storyboard</a></li></ul>
+              <ul><li><a href="#">Index Cards</a></li></ul>
+              <ul><li><a href="#">Catalog </a></li></ul>
+              <ul><li><a href="#">Cast & Crew </a></li></ul>
+              <ul><li><a href="#">Budget </a></li></ul>
+              <ul><li><a href="#">Schedule </a></li></ul>
+              <ul><li><a href="#" id="click">Files & Mediaa <i class="fa-solid fa-angle-down"></i> </a>
+
+                <ul id="drpdown">
+                  <li><a href="#">Files</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              
+              </li></ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sidebar End-->
+
+
+    <!-- Tools Section Start -->
+    <section class="tools">
+      <div class="container-fluid">
+        <div class="tools-box">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="tools-left">
+                <div class="tools-leftbox-one">
+                  <ul>
+                    <li><a href="#">Scene Heading <i class="fa-solid fa-chevron-down"></i></a>
+                      <ul>
+                        <li><a href="#">Tab To Switch</a></li>
+                        <li><a href="#">Act <span>Ctrl+O</span></a></li>
+                        <li><a href="#">Action <span>Ctrl+2</span></a></li>
+                        <li><a href="#">Character <span>Ctrl+3</span></a></li>
+                        <li><a href="#">Dialogue <span>Ctrl+4</span></a></li>
+                        <li><a href="#">Parenthetical <span>Ctrl+5</span></a></li>
+                        <li><a href="#">Transition <span>Ctrl+6</span></a></li>
+                        <li><a href="#">Shott <span>Ctrl+7</span></a></li>
+                        <li><a href="#">Text <span>Ctrl+8</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tools-leftbox-tow">
+                  <span><i class="fa-solid fa-b"></i></span>
+                  <span><i class="fa-solid fa-italic"></i></span>
+                  <span><i class="fa-solid fa-underline"></i></span>
+                  <span><i class="fa-solid fa-message"></i></span>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="tools-right">
+                <div class="tools-rightbox-one">
+                  <ul>
+                    <li><a href="#">100% <i class="fa-solid fa-chevron-down"></i></a>
+                      <ul>
+                        <li><a href="#">50% </a></li>
+                        <li><a href="#">75% </a></li>
+                        <li><a href="#">100% </a></li>
+                        <li><a href="#">125% </a></li>
+                        <li><a href="#">150% </a></li>
+                        <li><a href="#">175% </a></li>
+                        <li><a href="#">200% </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tools-rightbox-tow">
+                    <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span>
+                    <span><i class="fa-solid fa-rotate-left"></i></span>
+                    <span><i class="fa-solid fa-rotate-right"></i></span> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Tools Section End -->
+
+<!-- Writing Content Section -->
+<section class="writing">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="writing-section">
+
+      </div>
+
+      <div class="writing-menu" id="mydiv">
+        <ul id="mydivheader">
+          <li><a href="#">Tools</a></li>
+          <li><a href="#"><i class="fa-solid fa-compass"></i> Navigation</a></li>
+          <li><a  href="#"><i class="fa-solid fa-note-sticky"></i> Title Page</a>
+            <ul >
+              <li>Title Page</li>
+               <li><a href="#"><i class="fa-regular fa-comment"></i>Comments</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa-regular fa-comment"></i>Comments</a></li>
+          <li><a href="#"><i class="fa-regular fa-comment"></i>Index Cards</a></li>
+          <li><a href="#"><i class="fa-regular fa-image"></i>Media</a></li>
+          <li><a href="#"><i class="fa-regular fa-image"></i>Breakdown</a></li>
+          <li><a href="#"><i class="fa-regular fa-image"></i>Breakdown</a></li>
+          <li><a href="#"><i class="fa-regular fa-image"></i>Breakdown</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Writing Content End -->
+
+
+<!-- Footer Section Start-->
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="footer-left">
+          <span><i class="fa-solid fa-chevron-left"></i></span>
+          <span>WRITING <strong>00:00:00</strong></span>
+          <span>THINKING <strong>00:00:00</strong></span>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12" >
+        <div class="footer-right">
+          <span>PAGE COUNT  <strong>1</strong></span>
+          <span>WORD COUNT <strong>0</strong></span>
+          <span>LAST SAVED <strong>TODAY 4:00 PM</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Section End-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="./core.js"></script>
+  </body>
+</html>
