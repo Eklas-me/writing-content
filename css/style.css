@@ -626,6 +626,7 @@ header {
 .action ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 .action ul li a i {
   width: 2rem;
